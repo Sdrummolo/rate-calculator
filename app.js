@@ -8,8 +8,8 @@ const rate = document.querySelector("#rate");
 
 // Event listeners
 swap.addEventListener("click", swapper);
-inputFirst.addEventListener("click", calculateRate);
-inputSecond.addEventListener("click", calculateRate);
+inputFirst.addEventListener("input", calculateRate);
+inputSecond.addEventListener("input", calculateRate);
 selectFirst.addEventListener("change", calculateRate);
 selectSecond.addEventListener("change", calculateRate);
 
