@@ -1,0 +1,86 @@
+$main-color: #60965a;
+$secondary-color: #333333;
+
+// reset
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+// Main stylings
+body {
+	font-family: "Open Sans", sans-serif;
+	background-color: #f7f7f7;
+}
+
+h1 {
+	color: $main-color;
+	padding: 10px;
+	font-weight: bold;
+}
+
+p,
+h2 {
+	color: $secondary-color;
+}
+
+select {
+	font-size: 16px;
+	padding: 10px;
+}
+
+input {
+	background-color: #f7f7f7;
+	border: none;
+	font-size: 30px;
+	text-align: end;
+}
+
+textarea:focus,
+input:focus {
+	outline: none;
+}
+
+button {
+	height: 35px;
+	width: 62px;
+	font-size: 16px;
+	color: #ffffff;
+	background-color: #60965a;
+	border: transparent;
+	border-radius: 5px;
+}
+
+.container {
+	max-width: 700px;
+	margin: auto;
+	text-align: center;
+}
+
+img {
+	height: 160px;
+	margin: 100px auto 20px auto;
+	display: block;
+}
+
+#p {
+	margin-top: 30px;
+}
+
+#calculator {
+	margin: 40px auto 0 auto;
+	max-width: 360px;
+}
+
+#currency-first,
+#swap,
+#currency-second {
+	display: flex;
+	justify-content: space-between;
+	padding: 15px;
+
+	p {
+		color: $main-color;
+	}
+}
