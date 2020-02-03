@@ -30,6 +30,7 @@ input {
   border: none;
   font-size: 30px;
   text-align: end;
+  max-width: 230px;
 }
 
 textarea:focus,
@@ -65,15 +66,15 @@ img {
 
 #calculator {
   margin: 40px auto 0 auto;
-  max-width: 360px;
+  max-width: 300px;
 }
 
 #currency-first,
 #swap,
 #currency-second {
   display: flex;
-  justify-content: space-between;
   padding: 15px;
+  justify-content: space-between;
 }
 #currency-first p,
 #swap p,
