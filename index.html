@@ -1,38 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-		<title>Exchange Rate Calculator</title>
-		<link rel="stylesheet" href="style.css" />
-		<link
-			href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
-			rel="stylesheet"
-		/>
-	</head>
-	<body>
-		<div class="container">
-			<img src="./img/money.png" alt="" />
-			<h1>Exchange Rate Calculator</h1>
-			<p id="p">
-				Choose the currency and the amounts to get the exchange rate
-			</p>
-			<div id="calculator">
-				<div id="currency-first">
-					<select id="select-first"> </select>
-					<input type="number" id="input-first" min="0" value="1" />
-				</div>
-				<div id="swap">
-					<button>Swap</button>
-					<p id="rate"></p>
-				</div>
-				<div id="currency-second">
-					<select id="select-second"> </select>
-					<input type="number" id="input-second" min="0" value="" />
-				</div>
-			</div>
-		</div>
-	</body>
-	<script src="app.js"></script>
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      <title>Exchange Rate Calculator</title>
+      <link rel="stylesheet" href="style.css" />
+      <link
+         href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+         rel="stylesheet"
+      />
+   </head>
+   <body>
+      <div class="container">
+         <img src="./img/money.png" alt="" />
+         <h1>Exchange Rate Calculator</h1>
+         <p id="p">
+            Choose the currency and the amounts to get the exchange rate
+         </p>
+         <div id="calculator">
+            <div id="currency-first">
+               <select id="select-first"> </select>
+               <input type="number" id="input-first" min="0" value="1" />
+            </div>
+            <div id="swap">
+               <button>Swap</button>
+               <p id="rate"></p>
+            </div>
+            <div id="currency-second">
+               <select id="select-second"> </select>
+               <input type="number" id="input-second" min="0" value="" />
+            </div>
+         </div>
+      </div>
+   </body>
+   <script src="app.js"></script>
 </html>
